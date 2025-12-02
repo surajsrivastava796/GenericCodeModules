@@ -4,16 +4,12 @@ terraform {
       source  = "hashicorp/azurerm"
       version = "4.50.0"
     }
-
-  }
-
-
-
+}
 }
 
 provider "azurerm" {
   features {
 
   }
-  subscription_id = "3c5a5847-bba8-4a7e-b700-87684df57784"
+  subscription_id = "265d5c6a-c357-4ca8-a7dd-4a8bf8964a38"
 }
