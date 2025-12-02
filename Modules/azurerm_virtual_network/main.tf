@@ -1,7 +1,6 @@
 variable "vmap" {
 }
 
-
 resource "azurerm_virtual_network" "vnet" {
   for_each = var.vmap
   name = each.value.vnet_name
